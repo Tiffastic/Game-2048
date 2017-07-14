@@ -1,0 +1,23 @@
+
+
+Static Nested Classes
+OuterClass.StaticNestedClass nestedObject = new OuterClass.StaticNestedClass();
+
+Inner Classes
+OuterClass.InnerClass innerObject = outerObject.new InnerClass();
+
+More about Nested Classes
+ http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
+ 
+In Java, you can use a label to break out of a nested loop;
+
+mainLoop:
+
+for( )
+{
+	for ()
+	{
+		break mainLoop;
+	}
+
+}
